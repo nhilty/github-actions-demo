@@ -25,7 +25,7 @@ jobs:
 
     - name: Build the Go program
       # This step compiles your main application into an executable file named 'myprogram'
-      run: go build -o hello-world main.go
+      run: go build -o hello-world hello-world.go
 
     - name: Execute the Go program
       # This step runs the compiled executable
